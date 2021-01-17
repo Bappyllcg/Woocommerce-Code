@@ -1,3 +1,5 @@
+<?php
+
 // My account navigation 
 add_filter( 'woocommerce_account_menu_items', function($items) {
     //unset( $items['dashboard'] ); // Remove Dashboard
@@ -11,3 +13,5 @@ add_filter( 'woocommerce_account_menu_items', function($items) {
 
     return $items;
 }, 99, 1 );
+
+?>
