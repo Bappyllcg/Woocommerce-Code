@@ -1,3 +1,5 @@
+<?php 
+
 // Form Checkout
 add_filter( 'woocommerce_checkout_fields' , 'quadlayers_checkout_fields' );
 function quadlayers_checkout_fields( $fields ) { 
@@ -30,3 +32,6 @@ function quadlayers_checkout_fields( $fields ) {
      return $fields; 
 
 }
+
+
+?>
